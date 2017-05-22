@@ -5,19 +5,50 @@
 import React, { Component } from 'react';
 
 import Tiles from 'grommet/components/Tiles';
-import Tile from 'grommet/components/Tile';
 
 import Story from '../Story/Story';
 
 
 class StoryList extends Component {
+	constructor(props){
+		super(props);
+
+		this.state = {
+			data: []
+		};
+	}
+
+	componentDidMount(){
+		const th = this;
+
+		const mockData = 
+		[
+			{
+				img: 'http://ww3.hdnux.com/photos/61/24/34/12928782/4/rawImage.png',
+				title: 'A day in the life of Spurs Jesus',
+				link: 'http://www.expressnews.com/this-is-sa/article/This-is-SA-A-day-in-the-life-of-Spurs-Jesus-11157293.php',
+				byline: 'Lindsey Gawlik'
+			},
+			{
+				img: 'http://ww2.hdnux.com/photos/61/11/65/12885365/6/rawImage.png',
+				title: 'Meet the barber who pioneered hair portraits',
+				link: 'http://www.expressnews.com/this-is-sa/article/This-is-SA-Meet-the-barber-who-pioneered-hair-11122796.php',
+				byline: 'Lindsey Gawlik'
+			}
+		];
+
+		th.setState({data: mockData});
+	}
+
 	render(){
+		const listOfStories = this.state.data;
+		const stories = listOfStories.map(function(story, index){
+			return <Story key={index} img={story.img} title={story.title} link={story.link} byline={story.byline} />
+		});
 		return (
 			<div className="StoryList">
 				<Tiles fill={true}>
-					<Tile wide={true}>
-						<Story img='http://ww3.hdnux.com/photos/61/24/34/12928782/4/rawImage.png' title='Test Title'/>
-					</Tile>
+					{stories}
 				</Tiles>
 			</div>
 
