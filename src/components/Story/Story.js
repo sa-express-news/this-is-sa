@@ -16,7 +16,7 @@ class Story extends Component {
 			<Tile wide={true}>
 			<div className='Story'>
 				<a href={this.props.link}>
-					<Hero size={'large'} background={<Image src={this.props.img} fit='cover' full={true} />}>
+					<Hero size={'medium'} background={<Image src={this.props.img} fit='cover' full={true} />}>
 							<Heading>{this.props.title}</Heading>
 					</Hero>
 				</a>
