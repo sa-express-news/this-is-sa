@@ -5,9 +5,8 @@
 
 import React, { Component } from 'react';
 
-import Hero from 'grommet/components/Hero';
 import Image from 'grommet/components/Image';
-import Heading from 'grommet/components/Heading';
+import Paragraph from 'grommet/components/Paragraph';
 import Tile from 'grommet/components/Tile';
 
 import './Story.css';
@@ -17,7 +16,8 @@ class Story extends Component {
 	props:{
 		link: string,
 		img: string,
-		title: string
+		title: string,
+		description: string
 	};
 	
 	render(){
@@ -25,9 +25,13 @@ class Story extends Component {
 			<Tile wide={true}>
 			<div className='Story'>
 				<a href={this.props.link}>
-					<Hero size={'medium'} background={<Image src={this.props.img} fit='cover' full={true} />}>
-							<Heading>{this.props.title}</Heading>
-					</Hero>
+					<Image src={this.props.img} />
+					<Paragraph align='start' size='large'>
+					{this.props.title}
+					</Paragraph>
+					<Paragraph align='start' size='small'>
+					{this.props.description}
+					</Paragraph>
 				</a>
 			</div>
 			</Tile>
