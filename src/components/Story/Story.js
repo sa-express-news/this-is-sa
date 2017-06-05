@@ -1,3 +1,5 @@
+// @flow
+
 //Individualized story component. Expects props
 //for img, title, byline and link.
 
@@ -11,6 +13,13 @@ import Tile from 'grommet/components/Tile';
 import './Story.css';
 
 class Story extends Component {
+
+	props:{
+		link: string,
+		img: string,
+		title: string
+	};
+	
 	render(){
 		return(
 			<Tile wide={true}>

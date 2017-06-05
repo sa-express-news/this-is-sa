@@ -1,3 +1,5 @@
+// @flow
+
 //This is the overarching app container. It wraps the entire project
 //in a div with the class name "App."
 //Basic Grommet components are used for scaffolding.

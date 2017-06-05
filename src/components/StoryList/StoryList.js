@@ -1,3 +1,5 @@
+// @flow
+
 //This is the container component for all Story components.
 //This is where the app pings the story feed, constructing Story
 //components for each item in the feed.
@@ -10,13 +12,10 @@ import Story from '../Story/Story';
 
 
 class StoryList extends Component {
-	constructor(props){
-		super(props);
 
-		this.state = {
-			data: []
-		};
-	}
+	state: {
+		data: Array<Object>
+	};
 
 	componentDidMount(){
 		const th = this;
