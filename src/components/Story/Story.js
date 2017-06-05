@@ -25,11 +25,11 @@ class Story extends Component {
 			<Tile wide={true}>
 			<div className='Story'>
 				<a href={this.props.link}>
-					<Image src={this.props.img} />
-					<Paragraph align='start' size='large'>
+					<Image src={this.props.img}/>
+					<Paragraph align='start' size='large' className='storyTitle'>
 					{this.props.title}
 					</Paragraph>
-					<Paragraph align='start' size='small'>
+					<Paragraph align='start' size='medium'>
 					{this.props.description}
 					</Paragraph>
 				</a>
