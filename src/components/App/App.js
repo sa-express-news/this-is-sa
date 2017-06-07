@@ -14,11 +14,28 @@ import StoryList from '../StoryList/StoryList';
 import Footer from '../Footer/Footer';
 
 class App extends Component {
+  
+  state = {
+    isMobileScreen: true
+  };
+
+  componentDidMount(){
+    this.setIsMobile();
+    window.addEventListener('resize', this.setIsMobile);
+  }
+
+  setIsMobile = () => {
+    const isMobileScreen = window.innerWidth < 768;
+    if (isMobileScreen !== this.state.isMobileScreen) {
+      this.setState({ isMobileScreen });
+    }
+  }
+
   render() {
     return (
       <div className="App">
         <GrommetApp>
-          <AppHeader/>
+          <AppHeader isMobile={this.state.isMobileScreen}/>
         	<StoryList />
           <Footer />
       	</GrommetApp>
