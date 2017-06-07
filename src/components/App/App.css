@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
-  margin: 0 auto;
-  width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.App .grommet a:not(.grommetux-anchor):not(.grommetux-button):hover {
+	text-decoration: none;
 }
