@@ -20,10 +20,11 @@ class HeroSection extends Component{
 	render(){
 		return(
 			<div className='HeroSection'>
-			<Heading tag='h3'>Where ordinary San Antonioans do extraordinary things.</Heading>
-			<Hero size='small' background={<Image src={this.props.img} fit='cover' full={true} />}/>
-			<Heading>{this.props.title}</Heading>
-			<Paragraph>{this.props.description}</Paragraph>
+				<a href={this.props.link}>
+					<Hero size='small' background={<Image src={this.props.img} fit='cover' full={true} />}/>
+					<Heading>{this.props.title}</Heading>
+					<Paragraph>{this.props.description}</Paragraph>
+				</a>
 			</div>
 		)
 	}
