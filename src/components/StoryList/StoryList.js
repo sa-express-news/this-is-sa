@@ -13,7 +13,7 @@ import Story from '../Story/Story';
 
 import {parseFeed} from '../../feedparser.js';
 
-import './StoryList.css';
+// import './StoryList.css';
 
 class StoryList extends Component {
 

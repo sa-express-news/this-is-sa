@@ -23,11 +23,11 @@ class AppHeader extends Component{
   	);
 
   	const buildLogoDesktop = () => (
-  		<Image src={largeLogo} />
+  		<Image src={largeLogo} full='horizontal' />
   	);
 
   	return(
-  		<Box>
+  		<Box margin='small'>
   			{ this.props.isMobile && buildLogoMobile() }
         	{ !this.props.isMobile && buildLogoDesktop() }
 		</Box>
