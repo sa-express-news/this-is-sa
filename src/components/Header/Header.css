@@ -1,0 +1,10 @@
+.Header{
+	margin: 6vh auto;
+	width: 75%;
+}
+
+@media (min-width: 1024px){
+	.Header{
+		width: 65%;
+	}
+}	

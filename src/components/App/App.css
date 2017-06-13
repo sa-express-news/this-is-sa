@@ -3,9 +3,15 @@
     width: 94%;
 }
 
-@media only screen and (min-width: 768px){
+@media (min-width: 768px){
 	.App{
 		width: 97%;
+	}
+}
+
+@media (min-width: 1024px){
+	.App{
+		width: 98.5%;
 	}
 }
 
