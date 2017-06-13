@@ -6,9 +6,9 @@ import App from '../App/App';
 
 const mapStateToProps = (state) => {
 	return {
-		isFetching: state.stories.isFetching,
-		errorFetching: state.stories.errorFetching,
-		stories: state.stories.stories
+		isFetching: state.isFetching,
+		errorFetching: state.errorFetching,
+		stories: state.stories
 	}
 }
 
