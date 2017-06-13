@@ -1,0 +1,12 @@
+.Story {
+    background-size: cover;
+    height: 50vh;
+    margin: 3vh 0;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .Story {
+        height: 65vh;
+    }
+}

@@ -1,9 +1,11 @@
 .App {
-    text-align: center;
     margin: 0 auto;
-    width: 90%;
+    width: 94%;
 }
 
-.App .grommet a:not(.grommetux-anchor):not(.grommetux-button):hover {
-	text-decoration: none;
+@media only screen and (min-width: 768px){
+	.App{
+		width: 97%;
+	}
 }
+
