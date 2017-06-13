@@ -3,7 +3,9 @@
 import React, { Component } from 'react';
 
 import Header from '../Header/Header';
-import StoryList from '../StoryList/StoryList';
+import LeadStoryList from '../LeadStoryList/LeadStoryList';
+import Subsection from '../Subsection/Subsection';
+import Footer from '../Footer/Footer';
 
 import './App.css';
 
@@ -46,7 +48,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header isMobile={this.state.isMobileScreen}/>
-        <StoryList stories={this.props.stories}/>
+        <LeadStoryList stories={this.props.stories}/>
+        <Subsection stories={this.props.stories} isMobile={this.state.isMobileScreen}/>
+        <Footer />
       </div>
     );
   }
