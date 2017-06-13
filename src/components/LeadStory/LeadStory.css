@@ -1,0 +1,19 @@
+.LeadStory {
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    margin: 3vh 0;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .LeadStory {
+        height: 75vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .LeadStory {
+        height: 60vh;
+    }
+}
