@@ -1,0 +1,23 @@
+.SubStoryHeadline {
+    color: #fff;
+    font-size: 2.8vh;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+@media (min-width: 768px) {
+    .SubStoryHeadline {
+        font-size: 4vh;
+        padding-top: 20vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .SubStoryHeadline {
+        padding-top: 30vh;
+        width: 70%;
+    }
+}
