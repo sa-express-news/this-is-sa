@@ -5,7 +5,17 @@ import React, { Component } from 'react';
 import Header from '../Header/Header';
 import StoryList from '../StoryList/StoryList';
 
-import './App.scss';
+import './App.css';
+
+
+//MOBILE
+//Square photos with text on top - width 95
+
+//TABLET
+//Rectangle photos with text on top - width 95
+
+
+
 
 class App extends Component {
   props: {

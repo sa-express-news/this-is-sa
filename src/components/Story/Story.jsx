@@ -5,8 +5,7 @@
 
 import React, { Component } from 'react';
 
-import FullPhoto from '../FullPhoto/FullPhoto';
-import Paragraph from '../Paragraph/Paragraph';
+import Headline from '../Headline/Headline';
 
 import './Story.css';
 
@@ -20,13 +19,17 @@ class Story extends Component {
 	};
 	
 	render(){
+
+//linear-gradient(to top, rgba(50,50,50,0.5), rgba(51,187,255,0.1));
+//linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15))
+
+		const style ={
+			backgroundImage: `linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(${this.props.img})`
+		};
+
 		return(
-			<div className='Story'>
-				<a href={this.props.link}>
-					<FullPhoto src={this.props.img} alt=''/>
-					<Paragraph text={this.props.title} />
-					<Paragraph text={this.props.description} />
-				</a>
+			<div className='Story' style={style}>
+				<Headline text={this.props.title} />
 			</div>
 		)
 	}
