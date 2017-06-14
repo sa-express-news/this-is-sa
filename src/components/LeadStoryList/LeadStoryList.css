@@ -1,4 +1,17 @@
-/*.StoryList{
-	margin: 0 auto;
-	width: 95%;
-}*/
+.LeadStoryList {
+    margin: 0 auto;
+    width: 94%;
+}
+
+@media (min-width: 768px){
+	.LeadStoryList{
+		width: 97%;
+	}
+}
+
+@media (min-width: 1024px){
+	.LeadStoryList{
+		width: 98.5%;
+	}
+}
+

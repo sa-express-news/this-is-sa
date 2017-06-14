@@ -1,5 +1,23 @@
-.Subsection{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
+.SubsectionContainer {
+    background: #323232;
+}
+
+.Subsection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 94%;
+}
+
+@media (min-width: 768px) {
+    .Subsection {
+        width: 97%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Subsection {
+        width: 98.5%;
+    }
 }

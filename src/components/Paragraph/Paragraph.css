@@ -1,28 +1,16 @@
-.Paragraph {
-    margin: 0 auto 2vh;
-    width: 90%;
+.Paragraph{
+    font-size: 3vh;
+    text-align: center;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 600px) {
     .Paragraph {
-        font-size: 2.7vh;
-        width: 80%;
+        font-size: 4.5vh;
     }
 }
 
-@media only screen and (min-width: 1024px){
+@media (min-width: 1024px){
     .Paragraph{
-        margin: 0 0 2vh 22vh;
         line-height: 1.5;
-        width: 50%;
     }
-}
-
-.dropCap {
-    font-size: 7vh;
-    margin-right: 3vh;
-    margin-bottom: 3vh;
-    display: block;
-    font-weight: bold;
-    float: left;
 }
