@@ -27,12 +27,11 @@ class Subsection extends Component {
 			return <SubStoryLarge key={index} img={story.img} title={story.title} link={story.link} description={story.description} />
 		});
 		return (
-			<div>
-				<div className="Subsection">
-					{stories}
-				</div>
+			<div className="SubsectionContainer">
+			<div className="Subsection">
+				{stories}
 			</div>
-
+			</div>
 		)
 	}
 }

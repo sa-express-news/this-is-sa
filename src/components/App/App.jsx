@@ -35,11 +35,20 @@ class App extends Component {
     }
   }
   render() {
+    const stories = this.props.stories;
+    let leadStories = null;
+    let subStories = null;
+
+    if (stories.length > 4){
+      leadStories = stories.slice(0, 3);
+      subStories = stories.slice(4);
+    }
+    
     return (
       <div className="App">
         <Header isMobile={this.state.isMobileScreen}/>
-        <LeadStoryList stories={this.props.stories}/>
-        <Subsection stories={this.props.stories} isMobile={this.state.isMobileScreen}/>
+        <LeadStoryList stories={leadStories !== null ? leadStories : stories}/>
+        {subStories !== null && <Subsection stories={subStories} isMobile={this.state.isMobileScreen}/>}
         <Footer />
       </div>
     );

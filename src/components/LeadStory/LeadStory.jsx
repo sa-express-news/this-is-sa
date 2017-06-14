@@ -17,19 +17,27 @@ class LeadStory extends Component {
 		title: string,
 		description: string
 	};
+
+	state = {
+    	hover: false
+  	};
+
+	handleMouseEnter = (event:Event) =>{
+		if (!this.state.hover){
+			this.setState({hover: true});
+		}
+	}
 	
+//linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),
+
 	render(){
-
-//linear-gradient(to top, rgba(50,50,50,0.5), rgba(51,187,255,0.1));
-//linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15))
-
 		const style ={
-			backgroundImage: `linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(${this.props.img})`
+			backgroundImage: `linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(${this.props.img})`
 		};
 
 		return(
 			<a href={this.props.link}>
-			<div className='LeadStory' style={style}>
+			<div className='LeadStory' style={style} onMouseEnter={this.handleMouseEnter}>
 				<Headline text={this.props.title} />
 			</div>
 			</a>

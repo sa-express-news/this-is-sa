@@ -8,7 +8,7 @@ import React, { Component } from 'react';
 
 import LeadStory from '../LeadStory/LeadStory';
 
-// import './StoryList.css';
+import './LeadStoryList.css';
 
 class LeadStoryList extends Component {
 	props:{
