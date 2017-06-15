@@ -28,11 +28,9 @@ class LeadStory extends Component {
 		}
 	}
 	
-//linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),
-
 	render(){
 		const style ={
-			backgroundImage: `linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(${this.props.img})`
+			backgroundImage: `linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(${this.props.img})`
 		};
 
 		return(

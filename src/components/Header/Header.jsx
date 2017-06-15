@@ -30,7 +30,8 @@ class Header extends Component {
   			<div className='Header'>
         {this.props.isMobile && buildLogoMobile()}
         {!this.props.isMobile && buildLogoDesktop()}
-        <Paragraph text='Click on an image to watch the video.'/>
+        <Paragraph text="From our producers at ExpressNews.com, we bring you This is S.A., a bimonthly series that showcases the creativity and ingenuity of the city we call home." /> 
+        <Paragraph text="Here, we'll profile everyday people doing amazing things to enrich the lives of San Antonians. This is your city. These are your stories. This is S.A."/>
         	</div>
   		)
   	}

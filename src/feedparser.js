@@ -26,7 +26,7 @@ export function parseFeed(feed: Object){
 				//Set the <item>'s description to the object's description
 				//Only take the first <p> tag's worth of text
 				storyObject.description = grabFirstSentence(story.getElementsByTagName('description')[0].textContent);
-				
+
 				return storyObject;
 
 				//Removes the 'This is S.A.: ' string from the beginning of
