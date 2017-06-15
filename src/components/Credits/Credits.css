@@ -1,19 +1,13 @@
-.Credits{
-	font-size: 1em;
-	font-weight: 300;
-	line-height: 1.3;
-	margin: 0 auto;
-	text-align: center;
+.Credits {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.3;
+    margin: 1em auto;
+    text-align: center;
 }
 
-@media (min-width: 568px){
-	.Credits{
-		font-size: 4.5vh;
-	}
-}
-
-@media (min-width: 768px){
-	.Credits{
-		width: 75%;
-	}
+@media (min-width: 768px) {
+    .Credits {
+        width: 75%;
+    }
 }
