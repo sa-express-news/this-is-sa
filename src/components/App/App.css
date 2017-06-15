@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
-html {
+.App {
     background-color: #1d1d1d;
-}
-
-body {
     color: #fdfdfb;
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab', serif;
 }
 
-a {
+.App a {
     text-decoration: none;
 }
