@@ -1,18 +1,15 @@
-/*.App {
-    margin: 0 auto;
-    width: 94%;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+html {
+    background-color: #1d1d1d;
 }
 
-@media (min-width: 768px){
-	.App{
-		width: 97%;
-	}
+body {
+    color: #fdfdfb;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
 }
 
-@media (min-width: 1024px){
-	.App{
-		width: 98.5%;
-	}
+a {
+    text-decoration: none;
 }
-
-*/
