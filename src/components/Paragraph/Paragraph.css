@@ -1,16 +1,33 @@
 .Paragraph{
-    font-size: 3vh;
-    text-align: center;
+    font-size: 1em;
+    width: 80%;
+    margin: .5em auto;
+/*    text-align: center;*/
 }
 
-@media (min-width: 600px) {
+/*@media (min-width: 600px) {
     .Paragraph {
         font-size: 4.5vh;
     }
-}
+}*/	
 
 @media (min-width: 1024px){
     .Paragraph{
         line-height: 1.5;
+        width: 70%;
     }
+}
+
+@media (min-width: 1200px){
+	.Paragraph{
+		font-size: 1.25em;
+	}
+}
+
+
+@media (min-width: 1500px){
+	.Paragraph{
+		font-size: 1.5em;
+		width: 60%;
+	}
 }

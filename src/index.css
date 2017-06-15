@@ -1,12 +1,12 @@
 html {
-    background-color: #484847;
+    background-color: #222;
 }
 
 body {
 	color: #fdfdfb;
     margin: 0;
     padding: 0;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 a {

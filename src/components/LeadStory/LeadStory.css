@@ -1,12 +1,18 @@
 .LeadStory {
-    background-position: center;
     background-size: cover;
+    box-shadow: 1px 1px 1px #949493;
     height: 50vh;
-    margin: 3vh 0;
+    margin: 1.5vh 0;
     width: 100%;
 }
 
-.LeadStory::after{
+@media (max-width: 1024px) {
+    .LeadStory {
+        background-position: center;
+    }
+}
+
+.LeadStory::after {
     background: #fdfdfb;
     content: '';
     display: block;
