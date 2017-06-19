@@ -1,7 +1,11 @@
 {
-    "stories": [
-        {
-            "img":"http://ww3.hdnux.com/photos/61/50/41/13011050/4/rawImage.png",
+    "stories": [{
+            "img": "http://ww3.hdnux.com/photos/61/75/60/13098022/8/rawImage.png",
+            "title": "Playing with Mud",
+            "description": "Diana Kersey started playing with clay in her backyard when she was a young girl. As a young woman, Kersey's passion for basketball and art drove her through school, where she earned a bachelor of fine arts degree in drawing and a master of fine arts degree in ceramics.",
+            "link": "http://www.expressnews.com/this-is-sa/article/This-is-S-A-Playing-with-Mud-11223564.php"
+        }, {
+            "img": "http://ww3.hdnux.com/photos/61/50/41/13011050/4/rawImage.png",
             "title": "Meet the creator of San Antonio's most famous glass shop",
             "description": "Gini Garcia found her passion for glass-blowing at age 28. She now is the president and artist behind Garcia Art Glass's unbelievable creations - giant colorful pieces that have been featured around the world.",
             "link": "http://www.expressnews.com/this-is-sa/article/This-is-S-A-Meet-the-creator-of-San-Antonio-s-11189564.php"
