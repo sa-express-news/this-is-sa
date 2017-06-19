@@ -39,9 +39,9 @@ class App extends Component {
     let leadStories = null;
     let subStories = null;
 
-    if (stories.length > 4){
-      leadStories = stories.slice(0, 3);
-      subStories = stories.slice(4);
+    if (stories.length > 1){
+      leadStories = stories.slice(0, 1);
+      subStories = stories.slice(1);
     }
     
     return (
