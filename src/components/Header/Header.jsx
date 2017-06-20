@@ -23,16 +23,15 @@ class Header extends Component {
   		);
 
   		const buildLogoDesktop = () => (
-  			<FullPhoto src={largeLogo} alt='This is S.A.' />
+        <img className='large-logo' src={largeLogo} alt='This is S.A.' />
   		);
 
   		return(
   			<div className='Header'>
-        {this.props.isMobile && buildLogoMobile()}
-        {!this.props.isMobile && buildLogoDesktop()}
-        <Paragraph text="From our producers at ExpressNews.com, we bring you This is S.A., a bimonthly series that showcases the creativity and ingenuity of the city we call home." /> 
-        <Paragraph text="Here, we'll profile everyday people doing amazing things to enrich the lives of San Antonians. This is your city. These are your stories. This is S.A."/>
-        	</div>
+          {this.props.isMobile && buildLogoMobile()}
+          {!this.props.isMobile && buildLogoDesktop()}
+          <Paragraph text="ExpressNews.com brings you This is S.A., a bimonthly series showcasing the creativity and ingenuity of the city we call home." /> 
+        </div>
   		)
   	}
 }

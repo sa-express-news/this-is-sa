@@ -1,4 +1,22 @@
 .Header{
-	margin-bottom: 1em;
 	text-align: center;
+	margin-bottom: 2em;
+}
+
+.Header img.large-logo {
+	width: 100%;
+	max-width: 1200px;
+}
+
+.Header p.Paragraph {
+  letter-spacing: .105em;
+}
+
+.Header p.Paragraph:before, .Header p.Paragraph:after {
+	background: #32B2C4;
+  content: '';
+  display: block;
+  height: 0.6vh;
+  margin: 0.8vh auto 0.8vh;
+  width: 6vh;
 }
