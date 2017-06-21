@@ -12,7 +12,7 @@
 
 @media (min-width: 500px) {
     .Headline {
-        padding-top: 15%;
+        padding-top: 12%;
     }
 }
 
@@ -25,31 +25,18 @@
 @media (min-width: 768px) {
     .Headline {
         font-size: 1.75em;
-        padding-top: 24%;
     }
 }
 
 @media (min-width: 1024px) {
     .Headline {
         font-size: 2em;
-        padding-top: 20%;
-    }
-}
-
-@media (min-width: 1120px) {
-    .Headline {
-        padding-top: 18%;
-    }
-}
-
-@media (min-width: 1300px) {
-    .Headline {
-        padding-top: 15%;
+        padding-top: 14%;
     }
 }
 
 @media (min-width: 2425px) {
     .Headline {
-        padding-top: 12%;
+        padding-top: 8%;
     }
 }

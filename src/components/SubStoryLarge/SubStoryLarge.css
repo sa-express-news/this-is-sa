@@ -10,6 +10,6 @@
 @media (min-width: 1024px){
 	.SubStoryLarge{
 		flex-basis: 49%;
-		height: 52vh;
+/*		height: 52vh;*/
 	}
 }
