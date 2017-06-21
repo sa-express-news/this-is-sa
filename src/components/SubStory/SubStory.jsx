@@ -26,7 +26,7 @@ class SubStory extends Component {
 		return(
 			<div className='SubStoryContainer'>
 				<a href={this.props.link}>
-				<div className='SubStory' style={style} onMouseEnter={this.handleMouseEnter}>
+				<div className='SubStory' style={style}>
 					<Headline text={this.props.title} />
 				</div>
 				</a>
