@@ -1,6 +1,6 @@
 .SubStoryHeadline {
     color: #fff;
-    font-size: 2.8vh;
+    font-size: 1.5em;
     font-weight: 300;
     line-height: 1.5;
     margin: 0 auto;
@@ -8,10 +8,21 @@
     width: 90%;
 }
 
+@media (min-width: 500px) {
+    .SubStoryHeadline {
+        padding-top: 15%;
+    }
+}
+
+@media (min-width: 640px) {
+    .SubStoryHeadline {
+        padding-top: 12%;
+    }
+}
+
 @media (min-width: 768px) {
     .SubStoryHeadline {
-        font-size: 4vh;
-        padding-top: 20vh;
+        padding-top: 24%;
     }
 }
 
@@ -21,3 +32,35 @@
         width: 70%;
     }
 }
+/*
+@media (min-width: 768px) {
+    .Headline {
+        font-size: 1.75em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Headline {
+        font-size: 2em;
+        padding-top: 20%;
+    }
+}
+
+@media (min-width: 1120px) {
+    .Headline {
+        padding-top: 18%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .Headline {
+        padding-top: 15%;
+    }
+}
+
+@media (min-width: 2425px) {
+    .Headline {
+        padding-top: 12%;
+    }
+}
+*/
