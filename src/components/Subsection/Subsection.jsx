@@ -6,7 +6,6 @@
 
 import React, { Component } from 'react';
 
-import LeadStory from '../LeadStory/LeadStory';
 import SubStory from '../SubStory/SubStory';
 import SubStoryLarge from '../SubStoryLarge/SubStoryLarge';
 
