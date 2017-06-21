@@ -5,8 +5,7 @@
 
 import React, { Component } from 'react';
 
-import FullPhoto from '../FullPhoto/FullPhoto';
-import SubStoryHeadline from '../SubStoryHeadline/SubStoryHeadline';
+import Headline from '../Headline/Headline';
 
 import './SubStory.css';
 
@@ -18,13 +17,18 @@ class SubStory extends Component {
 		title: string,
 		description: string
 	};
-	
+
 	render(){
+		const style ={
+			backgroundImage: `linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(${this.props.img})`
+		};
+
 		return(
-			<div className='SubStory'>
+			<div className='SubStoryContainer'>
 				<a href={this.props.link}>
-					<FullPhoto src={this.props.img} alt={this.props.title}/>
-					<SubStoryHeadline text={this.props.title} />
+				<div className='SubStory' style={style} onMouseEnter={this.handleMouseEnter}>
+					<Headline text={this.props.title} />
+				</div>
 				</a>
 			</div>
 		)
