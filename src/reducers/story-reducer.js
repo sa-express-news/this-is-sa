@@ -22,7 +22,7 @@ export default (state = {
                 errorFetching: false,
                 stories: action.stories
             });
-        case types.REQUEST_STORIES_FALSE:
+        case types.REQUEST_STORIES_FAILURE:
             return Object.assign({}, state, {
                 isFetching: false,
                 errorFetching: true,

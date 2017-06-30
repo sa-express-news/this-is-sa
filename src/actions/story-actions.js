@@ -26,23 +26,23 @@ const requestFailure = () => {
 const fetchStories = () =>{
 	return dispatch => {
 		dispatch(requestStories());
+		dispatch(requestFailure());
 
 		//Note: CORS will block the actual feed in development, so it's hosted on my site instead.
 		// return fetch('https://kiafarhang.com/this-is-sa2') 
-	   	return fetch('http://www.expressnews.com/default/feed/this-is-sa-feed-1596.php')
-      	.then(response => response.text())
-      	.then(str => (new window.DOMParser()).parseFromString(str, 'text/xml'))
-      	.then(data => parseFeed(data))
-      	.then((feed) =>{
+	   	// return fetch('http://www.expressnews.com/default/feed/this-is-sa-feed-1596.php')
+     //  	.then(response => response.text())
+     //  	.then(str => (new window.DOMParser()).parseFromString(str, 'text/xml'))
+     //  	.then(data => parseFeed(data))
+     //  	.then((feed) =>{
 
-      		console.log(feed);
-      		dispatch(receiveStories(feed));
+     //  		dispatch(receiveStories(feed));
 
 
-      	})
-      	.catch((err) =>{
-      		dispatch(requestFailure());
-      	});
+     //  	})
+     //  	.catch((err) =>{
+     //  		dispatch(requestFailure());
+     //  	});
 	}
 }
 
