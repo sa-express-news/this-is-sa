@@ -1,30 +1,42 @@
 {
-    "stories": [{
+    "stories": [
+        {
+            "img": "http://ww3.hdnux.com/photos/63/13/45/13416814/4/rawImage.jpg",
+            "title": "Sweet Success",
+            "description": "Jenn Riesman started cooking when she was just a child alongside her mother. The locally recognized pastry chef has since gone on to help open the Hotel Emma kitchen, build her own cake creations and is now helping with the renovation of the Fairmont Hotel’s restaurant.",
+            "link": "http://www.expressnews.com/this-is-sa/article/This-is-S-A-Sweet-Success-11437993.php"
+        },
+        {
             "img": "http://ww4.hdnux.com/photos/62/41/44/13244711/4/rawImage.png",
             "title": "Busy with Bees",
             "description": "A white wooden box sits next to a similarly sized blue one, both raised off the hot ground by cinder blocks. Their dreary outsides belie the buzz inside. In fact, these are not just boxes; they are honeybee hives.",
             "link": "http://www.expressnews.com/this-is-sa/article/Busy-like-a-bee-11289086.php"
-        },{
+        },
+        {
             "img": "http://ww4.hdnux.com/photos/62/17/12/13169319/3/rawImage.png",
             "title": "How one S.A. chef became Cured",
             "description": "Visitors walking around The Pearl in downtown San Antonio may find themselves in a curious little restaurant with freshly-salted meat hanging in a window. Cured, owned by chef Steve McHugh, was named after the strange display and to also play on the chef's identity as a cancer survivor.",
             "link": "http://www.expressnews.com/this-is-sa/article/Cured-article-11256948.php"
-        }, {
+        },
+        {
             "img": "http://ww3.hdnux.com/photos/62/06/45/13134194/4/rawImage.png",
             "title": "Playing with Mud",
             "description": "Diana Kersey started playing with clay in her backyard when she was a young girl. As a young woman, Kersey's passion for basketball and art drove her through school, where she earned a bachelor of fine arts degree in drawing and a master of fine arts degree in ceramics.",
             "link": "http://www.expressnews.com/this-is-sa/article/This-is-S-A-Playing-with-Mud-11223564.php"
-        }, {
+        },
+        {
             "img": "http://ww3.hdnux.com/photos/61/50/41/13011050/4/rawImage.png",
             "title": "Meet the creator of San Antonio's most famous glass shop",
             "description": "Gini Garcia found her passion for glass-blowing at age 28. She now is the president and artist behind Garcia Art Glass's unbelievable creations - giant colorful pieces that have been featured around the world.",
             "link": "http://www.expressnews.com/this-is-sa/article/This-is-S-A-Meet-the-creator-of-San-Antonio-s-11189564.php"
-        }, {
+        },
+        {
             "img": "http://ww3.hdnux.com/photos/61/24/34/12928782/4/rawImage.png",
             "title": "A day in the life of Spurs Jesus",
             "description": "If you've ever wondered what Spurs Jesus does on a typical game day, the answer is \"a lot\" - the fitness enthusiast, event planner and local legend balances his private life with his public one with a very full schedule.",
             "link": "http://www.expressnews.com/this-is-sa/article/This-is-SA-A-day-in-the-life-of-Spurs-Jesus-11157293.php"
-        }, {
+        },
+        {
             "img": "http://ww2.hdnux.com/photos/61/11/65/12885365/8/rawImage.png",
             "title": "Meet the barber who pioneered hair portraits",
             "description": "Joe Barajas is not your average Joe. Barajas, known as \"The Joe Barber,\" is an artist, pioneer and designer of hairstyles.",

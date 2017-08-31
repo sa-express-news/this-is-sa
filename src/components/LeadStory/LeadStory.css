@@ -1,7 +1,5 @@
 .LeadStory {
-    /*    change this back to center after bee story
-*/
-    background-position: center 80%;
+    background-position: center;
     background-size: cover;
     height: 50vh;
     margin: 1.5vh 0;
