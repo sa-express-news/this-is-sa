@@ -6,7 +6,7 @@
 
 import React, { Component } from 'react';
 
-import LeadStory from '../LeadStory/LeadStory';
+import SubStory from '../SubStory/SubStory';
 import SubStoryLarge from '../SubStoryLarge/SubStoryLarge';
 
 import './Subsection.css';
@@ -21,16 +21,19 @@ class Subsection extends Component {
 		let isMobile = this.props.isMobile;
 		const listOfStories = this.props.stories;
 		const stories = listOfStories.map(function(story, index){
+
 			if (isMobile){
-				return <LeadStory key={index} img={story.img} title={story.title} link={story.link} description={story.description} />				
+				return <SubStory key={index} img={story.img} title={story.title} link={story.link} description={story.description} />				
 			}
+
 			return <SubStoryLarge key={index} img={story.img} title={story.title} link={story.link} description={story.description} />
 		});
+
 		return (
 			<div className="SubsectionContainer">
-			<div className="Subsection">
-				{stories}
-			</div>
+				<div className="Subsection">
+					{stories}
+				</div>
 			</div>
 		)
 	}

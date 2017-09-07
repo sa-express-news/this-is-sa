@@ -26,6 +26,7 @@ const requestFailure = () => {
 const fetchStories = () =>{
 	return dispatch => {
 		dispatch(requestStories());
+		// dispatch(requestFailure());
 
 		//Note: CORS will block the actual feed in development, so it's hosted on my site instead.
 		// return fetch('https://kiafarhang.com/this-is-sa2') 
@@ -35,7 +36,6 @@ const fetchStories = () =>{
       	.then(data => parseFeed(data))
       	.then((feed) =>{
 
-      		console.log(feed);
       		dispatch(receiveStories(feed));
 
 

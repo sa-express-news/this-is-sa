@@ -1,15 +1,16 @@
 .SubStoryLarge {
     background-position: center;
     background-size: cover;
+    border: 4px solid #32B2C4;
     flex-basis: 49%;
-    height: 40vh;
+    height: 22em;
     margin: 1.5vh auto;
     width: 100%;
 }
 
-@media (min-width: 1024px){
+
+@media (min-width: 768px){
 	.SubStoryLarge{
-		flex-basis: 49%;
-		height: 52vh;
+		flex-basis: 47%;
 	}
 }
