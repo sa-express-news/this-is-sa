@@ -31,7 +31,7 @@ class Header extends Component {
           {this.props.isMobile && buildLogoMobile()}
           {!this.props.isMobile && buildLogoDesktop()}
           <Paragraph text="ExpressNews.com brings you This is S.A., a bimonthly series showcasing the creativity and ingenuity of the city we call home." /> 
-          <p>Note: Production of This is S.A. has been pushed back due to Hurricane Harvey. You'll find the next episode here on Friday, Sept. 8.</p>
+          <p>Note: Production of This is S.A. has been pushed back due to Hurricane Harvey. You'll find the next episode here on Friday, Sept. 15.</p>
         </div>
   		)
   	}
