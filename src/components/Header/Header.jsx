@@ -19,11 +19,11 @@ class Header extends Component {
 
 	render() {
 		const buildLogoMobile = () => (
-			<FullPhoto src={smallLogo} alt='This is S.A.' />
+			<FullPhoto src={'https://s3.amazonaws.com/labs.expressnews.com/this-is-sa/logo-small.png'} alt='This is S.A.' />
 		);
 
 		const buildLogoDesktop = () => (
-			<img className='large-logo' src={largeLogo} alt='This is S.A.' />
+			<img className='large-logo' src={'https://s3.amazonaws.com/labs.expressnews.com/this-is-sa/logo-large.png'} alt='This is S.A.' />
 		);
 
 		return (
